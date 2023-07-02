@@ -1,0 +1,23 @@
+{
+    "name": "@ffprobe-binary/win32-x64",
+    "version": "6.0.0",
+    "type": "module",
+    "description": "The Windows 64-bit FFprobe binary for FFprobe-binary.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sanhoe/ffprobe-binary.git",
+        "directory": "binary/win32-x64"
+    },
+    "keywords": [
+        "ffprobe"
+    ],
+    "author": "sanhoe",
+    "license": "GPL-3.0-or-later",
+    "os": [
+        "win32"
+    ],
+    "cpu": [
+        "x64"
+    ]
+}
