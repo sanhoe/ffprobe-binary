@@ -1,1 +1,2 @@
-export default import.meta.url;
+const path = import.meta.url
+export default path;

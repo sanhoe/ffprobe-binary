@@ -25,7 +25,7 @@ npm install @ffprobe-binary/ffprobe
 
 ```javascript
 import ffprobe from '@ffprobe-binary/ffprobe';
-console.log(ffprobe); // [Project]/node_modules/@ffprobe-binary/[Platforms]-[Architecture]/ffprobe
+console.log(ffprobe); // [Project]/node_modules/@ffprobe-binary/[Platform]-[Architecture]/ffprobe
 ```
 
 ## Sources of the binaries

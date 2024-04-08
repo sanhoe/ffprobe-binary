@@ -1,21 +1,23 @@
 {
     "name": "@ffprobe-binary/ffprobe",
     "version": "1.0.0",
-    "type": "module",
     "description": "Node.js module providing path of FFprobe binary for various platforms.",
-    "main": "index.js",
+    "type": "module",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
     "scripts": {
+        "build": "tsc",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "optionalDependencies": {
-        "@ffprobe-binary/win32-x64": "^6.0.0",
-        "@ffprobe-binary/win32-ia32": "^6.0.0",
-        "@ffprobe-binary/linux-x64": "^6.0.0",
-        "@ffprobe-binary/linux-ia32": "^6.0.0",
-        "@ffprobe-binary/linux-arm64": "^6.0.0",
-        "@ffprobe-binary/linux-arm": "^6.0.0",
+        "@ffprobe-binary/darwin-arm64": "^6.0.0",
         "@ffprobe-binary/darwin-x64": "^6.0.0",
-        "@ffprobe-binary/darwin-arm64": "^6.0.0"
+        "@ffprobe-binary/linux-arm": "^6.0.0",
+        "@ffprobe-binary/linux-arm64": "^6.0.0",
+        "@ffprobe-binary/linux-ia32": "^6.0.0",
+        "@ffprobe-binary/linux-x64": "^6.0.0",
+        "@ffprobe-binary/win32-ia32": "^6.0.0",
+        "@ffprobe-binary/win32-x64": "^6.0.0"
     },
     "repository": {
         "type": "git",
@@ -29,5 +31,12 @@
     "bugs": {
         "url": "https://github.com/sanhoe/ffprobe-binary/issues"
     },
-    "homepage": "https://github.com/sanhoe/ffprobe-binary#readme"
+    "homepage": "https://github.com/sanhoe/ffprobe-binary#readme",
+    "devDependencies": {
+        "@types/node": "^20.4.0",
+        "typescript": "^5.1.6"
+    },
+    "engines": {
+        "node": ">=16"
+    }
 }
