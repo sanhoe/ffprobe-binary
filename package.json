@@ -1,6 +1,6 @@
 {
     "name": "@ffprobe-binary/ffprobe",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Node.js module providing path of FFprobe binary for various platforms.",
     "type": "module",
     "main": "./lib/index.js",
@@ -10,14 +10,11 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "optionalDependencies": {
-        "@ffprobe-binary/darwin-arm64": "^6.0.0",
-        "@ffprobe-binary/darwin-x64": "^6.0.0",
-        "@ffprobe-binary/linux-arm": "^6.0.0",
-        "@ffprobe-binary/linux-arm64": "^6.0.0",
-        "@ffprobe-binary/linux-ia32": "^6.0.0",
-        "@ffprobe-binary/linux-x64": "^6.0.0",
-        "@ffprobe-binary/win32-ia32": "^6.0.0",
-        "@ffprobe-binary/win32-x64": "^6.0.0"
+        "@ffprobe-binary/darwin-arm64": "^7.0.0",
+        "@ffprobe-binary/darwin-x64": "^7.0.0",
+        "@ffprobe-binary/linux-arm64": "^7.0.0",
+        "@ffprobe-binary/linux-x64": "^7.0.0",
+        "@ffprobe-binary/win32-x64": "^7.0.0"
     },
     "repository": {
         "type": "git",

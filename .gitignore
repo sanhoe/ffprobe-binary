@@ -23,3 +23,6 @@ dist-qa
 *.njsproj
 *.sln
 *.sw?
+
+binary
+package-lock.json
